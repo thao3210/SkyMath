@@ -4,6 +4,10 @@
 }
 
 .btn-contact {
-    width: 50px;
+    width: 60px;
     background: none;
+}
+
+.contact-bottom {
+    margin-bottom: 80px;
 }

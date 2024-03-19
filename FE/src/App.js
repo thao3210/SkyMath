@@ -52,7 +52,7 @@ const App = () => {
         <Routes>
           {/* Define a layout with header and footer */}
           <Route
-            path="/SkyMath"
+            path="/"
             element={
               <>
                 <Header />
@@ -63,28 +63,28 @@ const App = () => {
             }
           >
             <Route index element={<HomePage />} />
-            <Route path="/SkyMath/About" element={<AboutUs />} />
-            <Route path="/SkyMath/Contact" element={<ContactUs />} />
-            <Route path="/SkyMath/Course" element={<Course />} />
-            <Route path="/SkyMath/Course/:id" element={<CourseDetail />} />
-            <Route path="/SkyMath/Course/Test/:id" element={<CourseTestDetail />} />
-            <Route path="/SkyMath/Exams" element={<Exams />} />
-            <Route path="/SkyMath/Exams/ExamDetails/:id" element={<ExamDetails />} />
-            <Route path="/SkyMath/LessonList" element={<LessonList />} />
-            <Route path="/SkyMath/NewsAndEvent" element={<NewsAndEvent />} />
-            <Route path="/SkyMath/NewsAndEventDetail" element={<NewsDetail />} />
-            <Route path="/SkyMath/NewsDetails" element={<NewsDetails />} />
-            <Route path="/SkyMath/CompetitionDetails" element={<DetailCompetition />} />
-            <Route path="/SkyMath/Documents" element={<Documents />} />
-            <Route path="/SkyMath/Documents/:id" element={<DocumentDetail />} />
-            <Route path="/SkyMath/Achievement" element={<AchievementPage />} />
-            <Route path="/SkyMath/Admissions" element={<AdmissionsComponent />} />
-            <Route path="/SkyMath/DetailTeacher/:id" element={<DetailTeacher />} />
-            <Route path="/SkyMath/Books" element={<Books />} />
-            <Route path="/SkyMath/Profile" element={<Profile />} />
-            <Route path="/SkyMath/Schedule" element={<Schedule />} />
-            <Route path="/SkyMath/Quiz" element={<Quiz />} />
-            <Route path="/SkyMath/TestQuiz" element={<MultipleChoice />} />
+            <Route path="/About" element={<AboutUs />} />
+            <Route path="/Contact" element={<ContactUs />} />
+            <Route path="/Course" element={<Course />} />
+            <Route path="/Course/:id" element={<CourseDetail />} />
+            <Route path="/Course/Test/:id" element={<CourseTestDetail />} />
+            <Route path="/Exams" element={<Exams />} />
+            <Route path="/Exams/ExamDetails/:id" element={<ExamDetails />} />
+            <Route path="/LessonList" element={<LessonList />} />
+            <Route path="/NewsAndEvent" element={<NewsAndEvent />} />
+            <Route path="/NewsAndEventDetail" element={<NewsDetail />} />
+            <Route path="/NewsDetails" element={<NewsDetails />} />
+            <Route path="/CompetitionDetails" element={<DetailCompetition />} />
+            <Route path="/Documents" element={<Documents />} />
+            <Route path="/Documents/:id" element={<DocumentDetail />} />
+            <Route path="/Achievement" element={<AchievementPage />} />
+            <Route path="/Admissions" element={<AdmissionsComponent />} />
+            <Route path="/DetailTeacher/:id" element={<DetailTeacher />} />
+            <Route path="/Books" element={<Books />} />
+            <Route path="/Profile" element={<Profile />} />
+            <Route path="/Schedule" element={<Schedule />} />
+            <Route path="/Quiz" element={<Quiz />} />
+            <Route path="/TestQuiz" element={<MultipleChoice />} />
             {/* <Route path="/BookDetails" element={<BookDetails />} /> */}
           </Route>
 
