@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SkyMath/static/css/main.d19060e4.css",
-    "main.js": "/SkyMath/static/js/main.07102762.js",
+    "main.js": "/SkyMath/static/js/main.6bec0f0f.js",
     "static/media/success.gif": "/SkyMath/static/media/success.af1a7ce88ffc7183d21f.gif",
     "static/media/skymathCourse.png": "/SkyMath/static/media/skymathCourse.a8d462bd3fb078ee8b80.png",
     "static/media/about.png": "/SkyMath/static/media/about.42727e383782c8c44f38.png",
@@ -49,10 +49,10 @@
     "index.html": "/SkyMath/index.html",
     "static/media/hr.svg": "/SkyMath/static/media/hr.7067f49a29531d3f5c78.svg",
     "main.d19060e4.css.map": "/SkyMath/static/css/main.d19060e4.css.map",
-    "main.07102762.js.map": "/SkyMath/static/js/main.07102762.js.map"
+    "main.6bec0f0f.js.map": "/SkyMath/static/js/main.6bec0f0f.js.map"
   },
   "entrypoints": [
     "static/css/main.d19060e4.css",
-    "static/js/main.07102762.js"
+    "static/js/main.6bec0f0f.js"
   ]
 }
