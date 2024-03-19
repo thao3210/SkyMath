@@ -1,0 +1,73 @@
+.leaderboard-list {
+    height: 550px;
+}
+
+.leaderboard-list i {
+    font-size: 18px;
+    visibility: hidden;
+}
+
+
+.leaderboard-list li:nth-child(1) i {
+    color: #ffa500;
+    visibility: initial;
+}
+
+.leaderboard-list li:nth-child(2) i {
+    color: #b6b7b9;
+    visibility: initial;
+}
+
+.leaderboard-list li:nth-child(3) i {
+    color: #983702;
+    visibility: initial;
+}
+
+.reward-img {
+    width: 100px;
+}
+
+.board-leaderboard {
+    background-image: url('../../../../assets/images/board-leaderboard.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 160px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -100px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 465px) {
+    .leaderboard-list {
+        height: 400px;
+    }
+
+    .board-leaderboard {
+        height: 120px;
+        width: 300px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: -80px;
+    }
+
+    .reward-img {
+        width: 30px;
+    }
+}

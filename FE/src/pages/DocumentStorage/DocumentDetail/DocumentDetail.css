@@ -1,0 +1,11 @@
+/* ExamDetail.css */
+.pdf-container {
+    height: 100vh;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+
+.iframe-pdf {
+    height: 80vh;
+    width: 100%;
+}

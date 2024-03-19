@@ -1,0 +1,428 @@
+.golden-board-section {
+    background-color: #e6f5fc;
+}
+
+.trophy-real-img {
+    width: 40px;
+}
+
+.winner-container {
+    width: 350px;
+    height: 430px;
+    padding-inline: 30px;
+    z-index: 2;
+}
+
+.winner-container img {
+    height: 360px;
+}
+
+.other-students-container {
+    font-size: 18px;
+}
+
+.other-students-container .student-img-container {
+    border-radius: 30px;
+}
+
+.other-students-container .student-img-container:nth-child(1) {
+    width: 250px;
+    height: 300px;
+    padding-inline: 25px;
+    rotate: 15.43deg;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.other-students-container .student-img-container:nth-child(1) img {
+    height: 240px;
+}
+
+.other-students-container .student-img-container:nth-child(2) {
+    width: 220px;
+    height: 270px;
+    padding-inline: 25px;
+    z-index: 2;
+    margin-top: -30px;
+    margin-left: -60px;
+}
+
+.other-students-container .student-img-container:nth-child(2) img {
+    height: 210px;
+}
+
+.other-students-container .student-img-container:nth-child(3) {
+    width: 250px;
+    height: 300px;
+    padding-inline: 25px;
+    margin-top: 150px;
+    margin-left: -180px;
+    z-index: 2;
+}
+
+.other-students-container .student-img-container:nth-child(3) img {
+    height: 240px;
+}
+
+.other-students-container .student-img-container:nth-child(4) {
+    width: 290px;
+    height: 340px;
+    padding-inline: 28px;
+    rotate: -8.27deg;
+    margin-left: -70px;
+}
+
+.other-students-container .student-img-container:nth-child(4) img {
+    height: 280px;
+}
+
+.other-students-container .student-img-container:nth-child(5) {
+    width: 220px;
+    height: 270px;
+    padding-inline: 25px;
+    rotate: 16.82deg;
+    margin-top: 160px;
+    margin-left: -150px;
+    z-index: 2;
+}
+
+.other-students-container .student-img-container:nth-child(5) img {
+    height: 210px;
+}
+
+.other-students-container .student-img-container:nth-child(6) {
+    width: 290px;
+    height: 340px;
+    padding-inline: 28px;
+    rotate: 14.98deg;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
+.other-students-container .student-img-container:nth-child(6) img {
+    height: 280px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1400px) {
+
+    .winner-container {
+        width: 330px;
+        height: 400px;
+        padding-inline: 30px;
+    }
+
+    .winner-container img {
+        height: 330px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) {
+        width: 230px;
+        height: 280px;
+        padding-inline: 24px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) img {
+        height: 220px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) {
+        width: 200px;
+        height: 240px;
+        padding-inline: 24px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) img {
+        height: 180px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) {
+        width: 230px;
+        height: 280px;
+        padding-inline: 24px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) img {
+        height: 220px;
+    }
+
+
+    .other-students-container .student-img-container:nth-child(4) {
+        width: 250px;
+        height: 300px;
+        padding-inline: 26px;
+        margin-left: -60px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) img {
+        height: 240px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) {
+        width: 200px;
+        height: 240px;
+        padding-inline: 24px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) img {
+        height: 180px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) {
+        width: 250px;
+        height: 300px;
+        padding-inline: 26px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) img {
+        height: 240px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .winner-container {
+        width: 300px;
+        height: 360px;
+        padding-inline: 28px;
+    }
+
+    .winner-container img {
+        height: 290px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) {
+        width: 190px;
+        height: 240px;
+        padding-inline: 22px;
+        margin-left: -20px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) img {
+        height: 180px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) {
+        width: 170px;
+        height: 210px;
+        padding-inline: 22px;
+        margin-top: -20px;
+        margin-left: -50px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) img {
+        height: 150px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) {
+        width: 190px;
+        height: 240px;
+        padding-inline: 22px;
+        margin-top: 130px;
+        margin-left: -150px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) img {
+        height: 180px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) {
+        width: 220px;
+        height: 270px;
+        padding-inline: 24px;
+        margin-left: -40px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) img {
+        height: 210px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) {
+        width: 170px;
+        height: 210px;
+        padding-inline: 22px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) img {
+        height: 150px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) {
+        width: 220px;
+        height: 270px;
+        padding-inline: 24px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) img {
+        height: 210px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .winner-container {
+        width: 260px;
+        height: 320px;
+        padding-inline: 26px;
+    }
+
+    .winner-container img {
+        height: 260px;
+    }
+
+    .other-students-container {
+        font-size: 14px;
+    }
+
+    .other-students-container .student-img-container {
+        border-radius: 20px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) {
+        width: 160px;
+        height: 200px;
+        padding-inline: 18px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) img {
+        height: 160px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) {
+        width: 140px;
+        height: 180px;
+        padding-inline: 18px;
+        margin-left: -40px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) img {
+        height: 140px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) {
+        width: 160px;
+        height: 200px;
+        padding-inline: 18px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) img {
+        height: 160px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) {
+        width: 170px;
+        height: 210px;
+        padding-inline: 20px;
+        margin-left: -20px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) img {
+        height: 170px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) {
+        width: 140px;
+        height: 180px;
+        padding-inline: 18px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) img {
+        height: 140px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) {
+        width: 170px;
+        height: 210px;
+        padding-inline: 20px;
+        margin-left: -80px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) img {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 465px) {
+
+    .trophy-real-img {
+        width: 30px;
+    }
+
+    .other-students-container {
+        font-size: 12px;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) {
+        width: 120px;
+        height: 150px;
+        padding-inline: 12px;
+        margin-top: 30px;
+        rotate: -12deg;
+    }
+
+    .other-students-container .student-img-container:nth-child(1) img {
+        height: 120px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) {
+        width: 100px;
+        height: 130px;
+        padding-inline: 10px;
+    }
+
+    .other-students-container .student-img-container:nth-child(2) img {
+        height: 100px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) {
+        width: 120px;
+        height: 150px;
+        padding-inline: 12px;
+        margin-top: 150px;
+        margin-left: -180px;
+    }
+
+    .other-students-container .student-img-container:nth-child(3) img {
+        height: 120px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) {
+        width: 140px;
+        height: 180px;
+        padding-inline: 13px;
+        rotate: 12deg;
+        margin-left: 30px;
+    }
+
+    .other-students-container .student-img-container:nth-child(4) img {
+        height: 150px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) {
+        width: 100px;
+        height: 130px;
+        padding-inline: 10px;
+        margin-left: -180px;
+    }
+
+    .other-students-container .student-img-container:nth-child(5) img {
+        height: 100px;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) {
+        width: 140px;
+        height: 180px;
+        padding-inline: 13px;
+        margin-left: -30px;
+        margin-top: 100px;
+        rotate: -12deg;
+    }
+
+    .other-students-container .student-img-container:nth-child(6) img {
+        height: 150px;
+    }
+}

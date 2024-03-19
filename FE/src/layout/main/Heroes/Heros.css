@@ -1,0 +1,140 @@
+.swiperHeroes {
+    width: 100%;
+    height: 80vh;
+}
+
+.swiperHeroes .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiperHeroes .swiper-button-next,
+.swiperHeroes .swiper-button-prev {
+    color: #fff;
+    -webkit-text-stroke: 1px #ffb848;
+}
+
+.heroes-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heroes-text {
+    color: #ffb848;
+    text-shadow: 5px 5px 10px #000;
+    -webkit-text-stroke: 0.1rem #fff;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: -5px;
+}
+
+
+
+.btn-heroes {
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px -5px #141414;
+    padding: 3px 35px;
+    font-size: 25px;
+}
+
+.intro-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.intro-title:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 60%;
+    border-bottom: #4aa8ff solid 4px;
+    border-radius: 50px;
+}
+
+.btn-intro {
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px -5px #141414;
+}
+
+.intro-text {
+    text-align: justify;
+}
+
+.courses-section {
+    margin-top: -5%;
+}
+
+.swiperCourse .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+}
+
+.course-hero-name {
+    font-size: 20px;
+    height: 3.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+
+.course-hero-img {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.btn-course-more {
+    box-shadow: 0px 5px 10px -5px #000;
+}
+
+@media (max-width:992px) {
+    .btn-heroes {
+        font-size: 15px;
+    }
+
+    .btn-course-more {
+        font-size: 14px;
+    }
+
+    .course-hero-name {
+        font-size: 16px;
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .heroes-text {
+        -webkit-text-stroke: 0.06rem #fff;
+    }
+
+    .btn-course-more {
+        font-size: 12px;
+    }
+
+    .course-hero-img {
+        max-height: 140px;
+        min-height: 140px;
+    }
+
+    .course-hero-name {
+        height: 1.5rem;
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .courses-section {
+        margin-top: -35%;
+    }
+
+}

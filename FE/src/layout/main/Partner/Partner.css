@@ -1,0 +1,24 @@
+.partner-img {
+    height: 50px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+    .partner-img {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .partner-img {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .partner-img {
+        height: 30px;
+    }
+}

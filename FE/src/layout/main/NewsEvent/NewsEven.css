@@ -1,0 +1,68 @@
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 52vh;
+  background-color: transparent;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper .card-slide {
+  border: none !important;
+  /* width: 50vh; */
+}
+.slide-news {
+  background-image: url("../../../assets/images/bgrevent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-slide .card-title {
+  color: #0d3051;
+}
+.card-slide .card-text {
+  color: #0d3051;
+}
+.text-event {
+  position: relative;
+  display: inline-block;
+  color: #0d3051;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+.text-event:after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 120px;
+  border-bottom: #2884da solid 4px;
+  border-radius: 50px;
+}
+.center-align {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card-slide .card-image-c {
+  min-height: 28vh;
+  object-fit: cover;
+  border-radius: 25px;
+  border: none!important;
+}
+

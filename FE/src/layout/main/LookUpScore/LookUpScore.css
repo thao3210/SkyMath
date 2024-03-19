@@ -1,0 +1,135 @@
+.lookup-section {
+    background-color: #e6f5fc;
+}
+
+.lookup-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.lookup-title:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 50%;
+    border-bottom: #4aa8ff solid 4px;
+    border-radius: 50px;
+}
+
+.graduation-cap-img {
+    width: 90px;
+}
+
+.student-main-container {
+    width: 140px;
+    height: 140px;
+}
+
+.student-main-img {
+    width: 80px;
+    height: 80px;
+}
+
+.trophy-main-img {
+    width: 50px;
+}
+
+.student-sm-container {
+    width: 55px;
+    height: 55px;
+}
+
+.student-sm-img {
+    width: 35px;
+}
+
+.winner-text {
+    font-size: 20px;
+}
+
+.ontop-text {
+    font-size: 17px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    .graduation-cap-img {
+        width: 80px;
+    }
+
+    .student-main-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .student-main-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .trophy-main-img {
+        width: 45px;
+    }
+
+    .winner-text {
+        font-size: 18px;
+    }
+
+    .student-sm-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .student-sm-img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .graduation-cap-img {
+        width: 60px;
+    }
+
+    .student-main-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .student-main-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .trophy-main-img {
+        width: 35px;
+    }
+
+    .winner-text {
+        font-size: 16px;
+    }
+
+    .student-sm-container {
+        width: 45px;
+        height: 45px;
+    }
+
+    .student-sm-img {
+        width: 28px;
+    }
+
+    .ontop-text {
+        font-size: 14px;
+    }
+}

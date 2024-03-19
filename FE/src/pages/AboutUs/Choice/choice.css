@@ -1,0 +1,24 @@
+.tab-about-all {
+  border: none !important;
+}
+.icon-about {
+  font-size: 45px;
+}
+.img-about {
+  width: 400px;
+  margin-left: 10%;
+}
+.nav-pills .tab-link-about.active {
+  color: #fff;
+  background-color: #ff0000;
+  border-radius: 25px;
+}
+.nav-pills .tab-link-about:hover {
+  color: #fff;
+  border-radius: 25px;
+  background-color: #ff0000;
+}
+.nav-pills .tab-link-about {
+  color: #000;
+  margin: 8px;
+}

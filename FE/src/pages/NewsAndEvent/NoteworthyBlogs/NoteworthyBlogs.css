@@ -1,0 +1,52 @@
+.card-blog {
+    width: 16rem;
+}
+
+.card-blog-date {
+    font-size: 15px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {
+    .card-blog {
+        width: 12rem;
+    }
+
+    .card-blog-date {
+        font-size: 12px;
+    }
+
+    .card-blog-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card-blog {
+        width: 16rem;
+    }
+
+    .card-blog-date {
+        font-size: 12px;
+    }
+
+    .card-blog-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-blog {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .card-blog {
+        width: 10rem;
+    }
+}

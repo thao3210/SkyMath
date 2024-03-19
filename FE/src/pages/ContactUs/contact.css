@@ -1,0 +1,63 @@
+.contact {
+  /* background-image: url("../../assets/images/bgrachievement.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  margin-bottom: -30px;
+}
+
+.wrapper {
+  margin-bottom: 8%;
+  width: 100%;
+}
+.contact-wrap {
+  background: #e8edf0;
+}
+
+.contactForm {
+  .label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .form-control {
+    border: none;
+  }
+}
+.icon-contact .fa {
+  padding: 20px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  background-color: #e8edf0;
+}
+.icon-contact a{
+    color: red;
+}
+.icon-contact a:hover{
+    color: #ccc;
+}
+.submit-contact {
+  width: 50%;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+}
+
+.form-control textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+}
+
+.form-control select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+}
+
+.submit-contact:focus {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+  

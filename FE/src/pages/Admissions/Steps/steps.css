@@ -1,0 +1,27 @@
+.text-admission-steps{
+    text-align: center;
+}
+.all-steps{
+    margin: 3px auto 80px auto;
+}
+.item-steps{
+    background-color: #ccc;
+    border-radius: 0px 70px 70px 0px;
+}
+.text-steps {
+    position: relative;
+    display: inline-block;
+    color: #0d3051;
+    padding-bottom: 25px;
+  }
+  .text-steps:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 40%;
+    border-bottom: #2884da solid 4px;
+    border-radius: 50px;
+  }

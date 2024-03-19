@@ -1,0 +1,98 @@
+.notification-container {
+  margin: auto;
+  padding: 0px;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  .notification-card {
+    width: 100%;
+    margin-bottom: 5px;
+    display: block;
+    transition: opacity 0.3s;
+  }
+}
+
+.card-body-notification {
+  padding: 0.5rem;
+  table {
+    width: 100%;
+    tr {
+      display: flex;
+      td {
+        a.btn {
+          font-size: 0.8rem;
+          padding: 3px;
+        }
+      }
+      td:nth-child(2) {
+        text-align: right;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+.card-title-notification:before {
+  display: inline-block;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+
+.notification-invitation {
+  .card-body-notification {
+    .card-title-notification:before {
+      color: #90caf9;
+      border-color: #90caf9;
+      content: "\f0e0";
+    }
+  }
+}
+
+.notification-warning {
+  .card-body-notification {
+    .card-title-notification:before {
+      color: #ffe082;
+      border-color: #ffe082;
+      content: "\f0e0";
+    }
+  }
+}
+
+.notification-danger {
+  .card-body-notification {
+    .card-title-notification:before {
+      color: #ffab91;
+      border-color: #ffab91;
+      content: "\f0e0";
+    }
+  }
+}
+
+.notification-reminder {
+  .card-body-notification {
+    .card-title-notification:before {
+      color: #ce93d8;
+      border-color: #ce93d8;
+      content: "\f0e0";
+    }
+  }
+}
+
+.notification-card.display-none {
+  display: none;
+  transition: opacity 2s;
+}
+.dismiss-notification{
+  color: #ff0000;
+}
+.view-notification{
+  margin-left: 68px!important;
+}

@@ -1,0 +1,147 @@
+.bg-none {
+    background: none;
+}
+
+.reward-section {
+    background-image: url('../../../assets/images/bg-online-test.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.reward-main {
+    padding-top: 50px;
+
+}
+
+.board-reward-user {
+    background-image: url('../../../assets/images/board-leaderboard.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 160px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+
+
+.avatar-reward {
+    width: 100px;
+    height: 100px;
+}
+
+.username-reward {
+    font-size: 20px;
+}
+
+.reward-img-user {
+    width: 25px;
+}
+
+.store-section {
+    margin-top: -60px;
+}
+
+.reward-store-roof::before {
+    content: '';
+    display: block;
+    width: 105%;
+    background-image: url('../../../assets/images/roof.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0.5rem 5px black);
+    margin-left: -2.5%;
+    padding-top: 22%;
+}
+
+.store-container {
+    border-image-source: url('../../../assets/images/frame-shop.svg');
+    border-image-width: 6rem;
+    border-image-slice: 20% 15% 20% 15% fill;
+    border-style: solid;
+    border-width: 1.2rem;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.reward-item-slot {
+    width: 25%;
+    height: 120px;
+    border-image-source: url('../../../assets/images/hr.svg');
+    border-image-slice: 5;
+    border-style: solid;
+    border-width: 0 0 0.75em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 0 !important;
+}
+
+
+.reward-item-img {
+    width: 100px;
+}
+
+.reward-img-store {
+    width: 25px;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 465px) {
+    .board-reward-user {
+        height: 110px;
+        width: 300px;
+        font-size: 28px;
+        margin-top: -40px;
+    }
+
+    .avatar-reward {
+        width: 70px;
+        height: 70px;
+    }
+
+    .username-reward {
+        font-size: 18px;
+    }
+
+    .reward-img-user {
+        width: 20px;
+    }
+
+    .store-section {
+        margin-top: 0px;
+    }
+
+    .reward-item-slot {
+        margin-top: 25px;
+        margin-bottom: 5px;
+        padding-bottom: 0 !important;
+    }
+
+
+    .reward-item-img {
+        width: 70px;
+    }
+
+    .reward-img-store {
+        width: 20px;
+    }
+
+}

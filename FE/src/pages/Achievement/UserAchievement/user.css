@@ -1,0 +1,12 @@
+
+.img-user {
+  height: 20vh;
+  object-fit: cover;
+}
+.card-body-user {
+  width: 100%;
+}
+.card-user-left{
+  min-height: 70vh;
+  max-height: 70vh;
+}

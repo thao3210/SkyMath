@@ -1,0 +1,24 @@
+.color-math{
+    color: #42b971;
+    background-color: #dcf2e4;
+}
+
+.color-physical{
+    color: #fe9707;
+    background-color: #fceed3;
+}
+
+.color-chemistry{
+    color: #9a86f0;
+    background-color: #edeaff;
+}
+
+.color-biology{
+    color: #ff3b53;
+    background-color: #fdedef;
+}
+
+.search-date{
+    width: 300px;
+}
+

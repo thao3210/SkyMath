@@ -1,0 +1,25 @@
+.btn-pagination {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 12px;
+}
+
+.btn-pagination:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    transition: .3s all ease-in-out;
+}
+
+.btn-pagination.active {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+@media (max-width: 450px) {
+    .btn-pagination {
+        padding: 2px 8px;
+        font-size: 12px;
+    }
+}

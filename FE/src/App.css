@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--hover-color);
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--background);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+.fs-5 {
+  font-size: 20px !important;
+}
+
+.fs-6 {
+  font-size: 16px !important;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 465px) {
+
+  .fs-5 {
+    font-size: 14px !important;
+  }
+
+  .fs-6 {
+    font-size: 14px !important;
+  }
+
+}

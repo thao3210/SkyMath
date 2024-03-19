@@ -1,0 +1,57 @@
+.table-element {
+  margin: 0;
+}
+.blog-post {
+  margin-bottom: 80px;
+}
+.text-table {
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.table-list tbody tr:nth-child(odd) {
+  border-bottom: transparent;
+}
+
+.table-list tbody tr:nth-child(even) {
+  border-bottom: transparent;
+}
+.btn-classify {
+  background-color: transparent;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  width: 20vh;
+  white-space: nowrap;
+}
+.btn-classify:hover {
+  /* border: #1eb2f7 solid 1px; */
+  background: linear-gradient(to right, #444, #444, #000);
+  color: #fff;
+}
+
+.list-unstyled {
+  top: 0px;
+}
+.card-classify {
+  z-index: 1;
+}
+.dropdown-menu {
+  margin-top: -20px;
+  position: absolute;
+  z-index: 9999;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+.fa-trophy.cup {
+  color: #000;
+}

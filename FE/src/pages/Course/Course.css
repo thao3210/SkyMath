@@ -1,0 +1,93 @@
+.sidebar-course {
+  position: sticky;
+  top: 50px;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.curriculum-container {
+  white-space: nowrap;
+  max-width: 1200px;
+}
+
+.curriculum-container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.curriculum-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.curriculum-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.curriculum-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.grade-course-img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.card-course {
+  width: 18rem;
+}
+
+.course-name {
+  font-size: 18px;
+  height: 3rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+@media (max-width: 1200px) {
+  .card-course {
+    width: 15rem;
+  }
+
+  .grade-course-img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 992px) {
+  .grade-course-img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-course {
+    width: 15rem;
+  }
+
+  .course-name {
+    font-size: 15px;
+    height: 2.5rem;
+  }
+
+  .num-lesson-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-course {
+    width: 10rem;
+  }
+
+  .grade-course-img {
+    height: 120px;
+  }
+
+  .course-name {
+    font-size: 13px;
+    height: 2.2rem;
+  }
+}

@@ -1,0 +1,110 @@
+.form-search {
+  background-color: #fff;
+}
+.card-medal {
+  /* background: url("../../../assets/images/bgrevent.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-top {
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.row-modal .card-images img {
+  width: 12%;
+  object-fit: contain;
+}
+
+.details-top {
+  position: relative;
+  padding: 70px;
+}
+.top1 {
+  padding-top: 20px;
+  color: #000;
+}
+.top2 {
+  padding-top: 20px;
+  color: #000;
+}
+.top3 {
+  padding-top: 20px;
+  color: #000;
+}
+.card-on-top img {
+  margin: 30px auto;
+}
+.card-on-top .trophy {
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+}
+.img-top img {
+  width: 40px;
+  margin-top: 40px;
+}
+
+.text-point {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+.text-point:after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 120px;
+  border-bottom: #000 solid 4px;
+  border-radius: 50px;
+}
+
+.dropdown-course {
+  margin-left: auto;
+}
+.custom-dropdown {
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: 25px !important;
+  float: left;
+  margin-left: 10px;
+}
+.img-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-avatar.mx-auto {
+  margin-right: 10px;
+}
+.images-student {
+  width: 40px;
+  height: 40px;
+}
+.text-bottom-medal{
+  position: relative;
+}
+.text-bottom-medal:after{
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  transform: translateX(1%);
+  display: inline-block;
+  width: 92%;
+  border-bottom: #000 solid 1px;
+  border-radius: 50px;
+}
+
+.text-top1 {
+  color: #000;
+}
+.text-top1 .card-text {
+  line-height: 48px;
+  font-size: 23px;
+}

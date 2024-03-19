@@ -1,0 +1,30 @@
+.teacher-home-img {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.teacher-name {
+    font-size: 20px;
+}
+
+.swiperTeacher .swiper-button-prev {
+    z-index: 1000000 !important;
+    top: 30% !important;
+}
+
+.swiperTeacher .swiper-button-prev::after {
+    font-size: 25px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.swiperTeacher .swiper-button-next {
+    z-index: 1000000 !important;
+    top: 30% !important;
+}
+
+.swiperTeacher .swiper-button-next::after {
+    font-size: 25px;
+    font-weight: 800;
+    color: #000000;
+}

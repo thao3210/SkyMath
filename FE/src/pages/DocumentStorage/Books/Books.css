@@ -1,0 +1,123 @@
+/* .input-search {
+    width: 450px;
+} */
+
+.input-search:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.list-input {
+    font-size: large;
+}
+
+.list-input:focus {
+    box-shadow: none;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #c5c5c5;
+    border-radius: 50px;
+}
+
+.link-exam {
+    text-decoration: none;
+}
+
+.link-exam:hover {
+    text-decoration: underline;
+}
+
+.show-btn {
+    font-size: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+}
+
+
+.transition {
+    transition: transform 0.8s;
+    transform: rotate(-180deg);
+}
+
+.rotate-down-to-right {
+    transition: transform 0.3s ease;
+    /* Adjust the duration and timing function as needed */
+}
+
+.rotate-down-to-right.rotate {
+    transform: rotate(180deg);
+}
+
+.book-img {
+    width: 100%;
+    height: 250px;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    max-height: 3rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: normal;
+}
+
+.card-book {
+    width: 17rem;
+    min-height: 100%;
+}
+
+.card-book-title {
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+    .card-book {
+        width: 16rem;
+        transition: 0.3s all ease-in-out;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-book {
+        width: 12rem;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .book-img {
+        height: 200px;
+    }
+
+    .card-book-title {
+        font-size: 16px;
+    }
+
+    .line-clamp {
+        max-height: 2.6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-book {
+        width: 9.5rem;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .book-img {
+        height: 180px;
+    }
+
+    .card-book-title {
+        font-size: 14px;
+    }
+
+    .line-clamp {
+        max-height: 2.6rem;
+    }
+}

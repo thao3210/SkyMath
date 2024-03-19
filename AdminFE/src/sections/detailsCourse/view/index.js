@@ -1,0 +1,1 @@
+export { default as DetailsCourseView } from './details-course-view';

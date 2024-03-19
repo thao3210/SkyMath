@@ -1,0 +1,42 @@
+.bg-noflash {
+    background-color: aliceblue;
+}
+
+@keyframes flashRed {
+    0% {
+        background-color: #E74646;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: #E74646;
+    }
+}
+
+.flashRed {
+    animation: flashRed linear .5s infinite;
+}
+
+.sub-detail {
+    font-size: 15px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 465px) {
+    .sub-detail {
+        font-size: 12px;
+    }
+}
