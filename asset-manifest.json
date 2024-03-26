@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SkyMath/static/css/main.d33d0a8a.css",
-    "main.js": "/SkyMath/static/js/main.c10cefd6.js",
+    "main.css": "/SkyMath/static/css/main.0be727dc.css",
+    "main.js": "/SkyMath/static/js/main.e7b7c3cb.js",
     "static/media/success.gif": "/SkyMath/static/media/success.af1a7ce88ffc7183d21f.gif",
     "static/media/skymathCourse.png": "/SkyMath/static/media/skymathCourse.a8d462bd3fb078ee8b80.png",
     "static/media/about.png": "/SkyMath/static/media/about.42727e383782c8c44f38.png",
@@ -48,11 +48,11 @@
     "static/media/roof.svg": "/SkyMath/static/media/roof.d3261e1779cece31563f.svg",
     "index.html": "/SkyMath/index.html",
     "static/media/hr.svg": "/SkyMath/static/media/hr.7067f49a29531d3f5c78.svg",
-    "main.d33d0a8a.css.map": "/SkyMath/static/css/main.d33d0a8a.css.map",
-    "main.c10cefd6.js.map": "/SkyMath/static/js/main.c10cefd6.js.map"
+    "main.0be727dc.css.map": "/SkyMath/static/css/main.0be727dc.css.map",
+    "main.e7b7c3cb.js.map": "/SkyMath/static/js/main.e7b7c3cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33d0a8a.css",
-    "static/js/main.c10cefd6.js"
+    "static/css/main.0be727dc.css",
+    "static/js/main.e7b7c3cb.js"
   ]
 }
